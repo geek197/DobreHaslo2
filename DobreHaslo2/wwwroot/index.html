@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DobreHaslo2</title>
+    <title>DobreHaslo — Generator haseł</title>
+
+    <!-- SEO tags -->
+    <meta name="description" content="DobreHaslo — prosty i bezpieczny generator haseł. Twórz silne, losowe hasła lokalnie w przeglądarce." />
+    <meta name="keywords" content="generator haseł, bezpieczne hasła, losowe hasła" />
+    <meta name="author" content="DobreHaslo" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="DobreHaslo — Generator haseł" />
+    <meta property="og:description" content="Prosty i bezpieczny generator haseł" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+
+    <link rel="canonical" href="/" />
+    <meta name="theme-color" content="#ffffff" />
+
     <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -21,10 +37,13 @@
         <div class="loading-progress-text"></div>
     </div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">??</a>
+    <div id="blazor-error-ui" role="alert" aria-live="assertive">
+        <strong>Wystąpił błąd.</strong>
+        <p>Ta aplikacja to generator silnych haseł działający jako aplikacja <em>Blazor WebAssembly</em>. Aplikacja działa po stronie przeglądarki i wymaga obsługi WebAssembly — upewnij się, że Twoja przeglądarka obsługuje WebAssembly oraz że skrypty są włączone.</p>
+        <p>
+            <a href="" class="reload">Przeładuj</a>
+            <a class="dismiss">Zamknij</a>
+        </p>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
