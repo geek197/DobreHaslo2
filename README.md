@@ -1,4 +1,4 @@
-﻿# DobreHaslo2
+# DobreHaslo2
 
 Generator haseł i fraz (passphrases) napisany w **Blazor WebAssembly** z .NET 8. Aplikacja działa całkowicie po stronie przeglądarki bez wysyłania danych na serwer.
 
